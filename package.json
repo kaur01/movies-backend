@@ -1,0 +1,31 @@
+{
+  "name": "movies-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/application.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && cd ./build/out && node $NODE_DEBUG_OPTION application.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cors": "2.8.4",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "4.16.1",
+    "@types/node": "12.0.3",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "express-validator": "5.3.1",
+    "inversify": "5.0.1",
+    "inversify-express-utils": "6.3.2",
+    "mongoose": "5.1.4",
+    "ts-node": "7.0.1",
+    "typegoose": "5.2.1",
+    "typescript": "3.2.2"
+  },
+  "devDependencies": {
+    "@types/mongoose": "5.2.13",
+    "reflect-metadata": "0.1.13"
+  }
+}

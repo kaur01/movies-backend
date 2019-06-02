@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "es2015",
+      "dom"
+    ],
+    "module": "commonjs",
+    "outDir": "./build/out/",
+    "target": "es6",
+    "moduleResolution": "node",
+    "noImplicitUseStrict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
